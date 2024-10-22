@@ -1,14 +1,13 @@
-import './App.css'
-
+import "./App.css";
+import Homepage from "./components/Homepage";
 function App() {
-
   return (
     <>
-      <div>
-      <h1>Hello World!</h1>
-      </div>
+      <main>
+        <Homepage />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
